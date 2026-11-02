@@ -1,0 +1,44 @@
+{
+  "script": "identify_bank01",
+  "timestamp": "2026-10-25 23:52:58",
+  "params": {
+    "R1": 0.0011292383264241077,
+    "R2": 0.0681631751134951,
+    "C2": 1807179.1481986274,
+    "alpha2": 0.9479370779199418,
+    "R3": 0.006900604267653685,
+    "tau3": 57529.327736137115,
+    "soc_hi": 0.7222703968956774,
+    "Q": 39.99999999999999,
+    "R0": 0.0013,
+    "alpha1": 0.53,
+    "C1": 3156.11277712919,
+    "tau1_fixed": 11.0
+  },
+  "metrics": {
+    "rmse_weighted_init": 6.989956325567229,
+    "rmse_weighted_final": 2.4442721261295133,
+    "rmse_unweighted_init": 6.801970832986871,
+    "rmse_unweighted_final": 2.3368711189761115,
+    "rmse_fault_segment": 1.9601951060160332,
+    "de_nfev": 14520.0,
+    "de_converged": 0.0
+  },
+  "meta": {
+    "data_file": "Bank01_20250701.csv",
+    "data_date": "20250701",
+    "topology": "single cluster N_S=216,N_P=3",
+    "Q_clu_ah": 120.0,
+    "R0_fixed": 0.0013,
+    "ocv": "3-layer dual-branch (per-cell)",
+    "tau1_fixed": 11.0,
+    "alpha1_fixed": 0.53,
+    "tau_h": 120.0,
+    "h_ref": 0.5,
+    "tau_rest": 1800.0,
+    "mask_fault": "(1.9, 2.86)",
+    "dt": 5.0,
+    "memory_limit": 1500,
+    "i_imbalance_median": 0.9867986769334732
+  }
+}

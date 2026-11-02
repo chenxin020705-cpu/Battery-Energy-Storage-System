@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+.idea/
+
+battery/SS0.1/battery_cluster/data/
